@@ -6,7 +6,7 @@ class Zedx < Formula
   homepage 'https://github.com/tahayvr/zedx'
   version '0.2.0'
   url 'https://registry.npmjs.org/zedx/-/zedx-0.2.0.tgz'
-  sha256 '1f4c76caa6bb37989339c43c585917833a71423f'
+  sha256 'eba19c18ebfa547e767a37a89c3cfc9c76941a26862888a5ba16a7997f97294a'
   license 'Apache-2.0'
 
   depends_on 'node'
