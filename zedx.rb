@@ -4,9 +4,9 @@
 class Zedx < Formula
   desc 'Boilerplate generator for Zed Editor extensions.'
   homepage 'https://github.com/tahayvr/zedx'
-  version '0.8.2'
-  url 'https://registry.npmjs.org/zedx/-/zedx-0.8.2.tgz'
-  sha256 'c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f'
+  version '0.9.0'
+  url 'https://registry.npmjs.org/zedx/-/zedx-0.9.0.tgz'
+  sha256 '074162eaf938b8f92f332cc01c245b43b69e1c9881e222e8b9cda4ad603c0483'
   license 'Apache-2.0'
 
   depends_on 'node'
