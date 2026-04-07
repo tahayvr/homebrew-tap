@@ -2,11 +2,11 @@
 # frozen_string_literal: true
 
 class Zedx < Formula
-  desc 'Boilerplate generator for Zed Editor extensions.'
+  desc 'The CLI toolkit for Zed Editor.'
   homepage 'https://github.com/tahayvr/zedx'
-  version '0.9.0'
-  url 'https://registry.npmjs.org/zedx/-/zedx-0.9.0.tgz'
-  sha256 '074162eaf938b8f92f332cc01c245b43b69e1c9881e222e8b9cda4ad603c0483'
+  version '0.10.0'
+  url 'https://registry.npmjs.org/zedx/-/zedx-0.10.0.tgz'
+  sha256 '5cfc9f2c7adfed33d41f54faec3c6e2e335bea773f7cd122809ad2ad93773542'
   license 'Apache-2.0'
 
   depends_on 'node'
@@ -17,7 +17,6 @@ class Zedx < Formula
   end
 
   test do
-    assert_match 'Boilerplate generator for Zed Editor extensions.',
-                 shell_output("#{bin}/zedx --help")
+    assert_match 'The CLI toolkit for Zed Editor.', shell_output("#{bin}/zedx --help")
   end
 end
