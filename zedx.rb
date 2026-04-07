@@ -4,9 +4,9 @@
 class Zedx < Formula
   desc 'The CLI toolkit for Zed Editor.'
   homepage 'https://github.com/tahayvr/zedx'
-  version '0.10.0'
-  url 'https://registry.npmjs.org/zedx/-/zedx-0.10.0.tgz'
-  sha256 '5cfc9f2c7adfed33d41f54faec3c6e2e335bea773f7cd122809ad2ad93773542'
+  version '0.11.0'
+  url 'https://registry.npmjs.org/zedx/-/zedx-0.11.0.tgz'
+  sha256 '4c30610f1b00153016491dda7bdd8b02cdae8ca19f21eb0c66581f208c4960ab'
   license 'Apache-2.0'
 
   depends_on 'node'
